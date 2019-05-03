@@ -1,0 +1,35 @@
+.btn-medium{
+    color: #7393b2; 
+    border: 1px solid #7393b2;  
+    border-radius: 50px; 
+    padding: 10px 15px; 
+    font-weight: lighter; 
+    opacity: 0.6; 
+}
+
+
+.btn-medium:hover{
+    opacity: 1; 
+    text-decoration: none; 
+    color: #7393b2; 
+}
+
+
+
+.btn-small{
+    color: #ff2f2f; 
+    border-radius: 20px; 
+    padding: 10px 15px; 
+    font-weight: lighter; 
+    opacity: 0.6; 
+}
+
+
+.btn-medium:hover{
+    opacity: 1; 
+    text-decoration: none; 
+    color: #7393b2; 
+}
+    
+    
+}
