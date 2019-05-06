@@ -16,19 +16,21 @@
 
 
 
-.btn-small{
-    color: #ff2f2f; 
-    border-radius: 20px; 
-    padding: 10px 15px; 
-    font-weight: lighter; 
-    opacity: 0.6; 
+.btn-twitter{
+    color: white; 
+    border-radius: 5px; 
+    padding: 14px 15px; 
+    font-weight: bold; 
+    background-color: #f03131;
+    text-decoration: none; 
+
 }
 
 
-.btn-medium:hover{
-    opacity: 1; 
+.btn-twitter:hover{
+
     text-decoration: none; 
-    color: #7393b2; 
+    background-color: red;  
 }
     
     
