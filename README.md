@@ -19,13 +19,14 @@ https://panaddamanarata.github.io/panadda-trap/
     * one lighter one with round edges, one bolder one
 
 * cards
-    * contain a theme, avatar
-    * placeholder image
+    * theme
+    * avatar
+    * placeholder background
     * card-description
 
 
 * banner
-    * background image 
+    * placeholder background image 
     * descripton
     * button
     
