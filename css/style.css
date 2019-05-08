@@ -3,22 +3,77 @@
 
 
 */
-@import url(avatar.css); 
-@import url("buttons.css"); 
-@import url(card.css); 
-@import url(grid.css); 
+@import url(avatar.css);
+@import url("buttons.css");
+@import url(card.css);
+@import url(grid.css);
+@import url(banner.css);
+@import url(tabs.css); 
+@import url(form.css); 
 
 
-body{
+body {
+
+   font-family: 'Dosis', sans-serif;
     
-    font-family: 
 }
 
 
-h1, h2, h3{
-    
+h1,
+h2,
+h3 {
+   letter-spacing:5px ; 
+    border-left: 3px dotted orange; 
+    padding-left: 20px; 
 }
 
 
 
-.container{}
+
+
+
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    /*
+    space-between: not around, between, 
+    horizontal
+    */
+    align-items: center
+        /*vertical*/
+
+
+}
+
+
+/*can grow (auto) */
+
+ 
+
+h2{
+    padding:15px;  }
+
+
+ul{
+    
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden; 
+}
+
+li{float: left; }
+
+li a{display: block; 
+color: white; 
+text-align: center; 
+    padding: 15px 16px; 
+    text-decoration: none; 
+}
+
+
+
+.container *{
+    margin-bottom: 20px; 
+}
